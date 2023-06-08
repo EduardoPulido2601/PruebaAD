@@ -4,7 +4,7 @@ import sqlite3
 xlresult = '/home/okabe/Proyectos/prueba/filtered_data.xlsx'
 final_result = pd.DataFrame()
 
-for i in range(8):   #8
+for i in range(8):   
 
     xlfile = '/home/okabe/Proyectos/prueba/datos/'+ str(2014 + i) + '.xlsx'
 
